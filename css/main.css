@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.otf") format("opentype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background: url("../img/background.jpg") repeat; }
+
+.navbar {
+  background: none;
+  background: url("../img/background-header.png") 21px 21px repeat-x, url("../img/background.jpg") repeat;
+  padding-top: 22px;
+  border-bottom: none;
+  min-height: 80px; }
+  .navbar .container-fluid {
+    max-width: 1000px; }
+    .navbar .container-fluid .navbar-brand {
+      margin-top: -55px; }
+    .navbar .container-fluid .navbar-nav {
+      margin: 15px 0 0 160px; }
+      .navbar .container-fluid .navbar-nav .active-nav {
+        border-bottom: 2px solid #d42819;
+        display: block;
+        padding-bottom: 5px; }
+    .navbar .container-fluid img {
+      margin-left: -15px;
+      display: block;
+      width: 119px;
+      height: 119px; }
+    .navbar .container-fluid .navbar-right {
+      margin-top: 25px;
+      z-index: 0; }
+      .navbar .container-fluid .navbar-right .facebook,
+      .navbar .container-fluid .navbar-right .twitter,
+      .navbar .container-fluid .navbar-right .boll,
+      .navbar .container-fluid .navbar-right .be,
+      .navbar .container-fluid .navbar-right .google,
+      .navbar .container-fluid .navbar-right .rss {
+        width: 26px;
+        height: 26px;
+        background: url("../img/sprite.png") no-repeat; }
+      .navbar .container-fluid .navbar-right .facebook {
+        background-position: -124px 0px; }
+      .navbar .container-fluid .navbar-right .twitter {
+        background-position: -156px 0px; }
+      .navbar .container-fluid .navbar-right .boll {
+        background-position: -188px 0px; }
+      .navbar .container-fluid .navbar-right .be {
+        background-position: -220px 0px; }
+      .navbar .container-fluid .navbar-right .google {
+        background-position: -252px 0px; }
+      .navbar .container-fluid .navbar-right .rss {
+        background-position: -285px 0px; }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0 0 0;
+  font: 12px MyriadPro-Regular;
+  color: #585857; }
+  .container .content {
+    padding: 110px 20px 50px 20px; }
+    .container .content h2 {
+      text-align: center; }
+      .container .content h2 .active {
+        color: #d42819; }
+    .container .content .breadcrumb {
+      text-align: center;
+      background: none;
+      margin: 35px 0 17px 0; }
+      .container .content .breadcrumb li a {
+        font-size: 14px;
+        color: #9b9b9b; }
+      .container .content .breadcrumb li .active {
+        color: #d42819; }
+    .container .content h4 {
+      margin-bottom: 0; }
+    .container .content p {
+      margin-bottom: 0; }
+    .container .content .caption p {
+      color: #868585; }
+    .container .content .thumbnail {
+      margin-top: -10px;
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      -webkit-box-shadow: 0px 0px 10px 0px #c4c1c0;
+      -moz-box-shadow: 0px 0px 10px 0px #c4c1c0;
+      box-shadow: 0px 0px 10px 0px #c4c1c0;
+      background: url("../img/sprite.png") no-repeat;
+      position: relative; }
+      .container .content .thumbnail .zoom {
+        position: absolute;
+        bottom: -25px;
+        right: 7px;
+        width: 53px;
+        height: 53px;
+        background: url("../img/sprite.png") no-repeat;
+        background-position: -320px 0px; }
+    .container .content .nav-pages {
+      text-align: center;
+      margin: 60px 0; }
+      .container .content .nav-pages .arrows {
+        background-color: #f0efef; }
+      .container .content .nav-pages li {
+        text-align: center;
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        border: 1px solid #b8b9b9;
+        border-radius: 20%;
+        padding-top: 3px; }
+        .container .content .nav-pages li a {
+          color: #666666; }
+        .container .content .nav-pages li .active {
+          color: red;
+          background-color: white; }
+    .container .content h3 {
+      padding-top: 15px;
+      margin-bottom: 30px;
+      height: 48px;
+      width: 267px;
+      -webkit-box-shadow: 0px 0px 5px 0px #c4c1c0;
+      -moz-box-shadow: 0px 0px 5px 0px #c4c1c0;
+      box-shadow: 0px 0px 5px 0px #c4c1c0;
+      background-color: white;
+      text-align: center;
+      font-size: 16px; }
+    .container .content .right {
+      float: right; }
+    .container .content .center {
+      margin-left: auto;
+      margin-right: auto; }
+    .container .content .form-control {
+      background-color: rgba(192, 192, 192, 0.3);
+      border-radius: 0;
+      width: 223px;
+      margin-right: 10px; }
+    .container .content form {
+      margin-top: 40px; }
+      .container .content form label {
+        font: 14px Myriad Pro; }
+    .container .content .btn-default {
+      background: none;
+      background-color: rgba(192, 192, 192, 0.3);
+      border-radius: 0;
+      color: #666666; }
+    .container .content p {
+      margin-bottom: 20px;
+      width: 267px; }
+    .container .content .p-pos {
+      padding-left: 14px;
+      margin-left: 0; }
+    .container .content .inf-menu li {
+      list-style-type: none;
+      min-width: 130px;
+      padding-bottom: 10px;
+      margin-bottom: 5px;
+      background: url("../img/sprite.png") no-repeat;
+      background-position: -307px -98px; }
+      .container .content .inf-menu li a {
+        color: #666666; }
+  .container .footer {
+    border-top: 1px solid #b1b1b0;
+    min-height: 180px;
+    padding: 20px 10px; }
+    .container .footer .des-by {
+      float: right; }
+
+.text-hide {
+  text-indent: -9999px; }
+
+/*# sourceMappingURL=main.css.map */
